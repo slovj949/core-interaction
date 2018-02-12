@@ -1,23 +1,31 @@
 h1 {font-family: sans-serif;
 	font-size: 50pt;
 	text-align: left;
-	margin-top: 10px;}
+	margin-top: -20px;}
 
 h2 {font-family: sans-serif;
   display: block;
 	font-size: 35pt;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.5px;
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-color: black;
 	overflow-wrap: break-all;
 	line-height: 100%;
-	margin-top: -20px;}
+	margin-top: -10px;}
 
 h2:link {text-decoration: none;}
 
 h2:hover {-webkit-text-fill-color: black;
 		cursor: cell;}
 
+h3 {display: inline-block;
+		font-weight: lighter;}
+
+h3:link {text-decoration: none;
+				color: black;}
+
+h3:hover {font-style: italic;
+					color: black;}
+
 body {
-    cursor: cell;
-}
+    cursor: cell;}
