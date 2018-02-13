@@ -1,0 +1,18 @@
+h1 {font-family: sans-serif;
+	font-size: 50pt;
+	text-align: left;}
+
+h2 {font-family: sans-serif;
+  display: block;
+	font-size: 35pt;
+	-webkit-text-stroke-width: 3.5px;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-color: black;
+	overflow-wrap: break-all;
+	line-height: 100%;
+	margin-top: -10px;}
+
+h2:link {text-decoration: none;}
+
+h2:hover {-webkit-text-fill-color: black;
+		cursor: cell;}
