@@ -5,19 +5,19 @@ html, body {
 }
 
 #red {
-  height: auto;
+  height: 100%;
   width: 33.3333%;
   float:left;
   background-color: red;}
 
 #green {
-  height: auto;
+  height: 100%;
   width: 33.3333%;
   float: left;
   background-color: green;}
 
 #blue {
-  height: auto;
+  height: 100%;
   width: 33.3333%;
   float: left;
   background-color: blue;}
