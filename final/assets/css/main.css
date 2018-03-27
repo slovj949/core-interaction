@@ -26,7 +26,3 @@ h1 {
   font-family: sans-serif;
   color: white;
 }
-
-p + p {
-  padding-top: -10000px;
-}
