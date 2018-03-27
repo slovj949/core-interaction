@@ -10,7 +10,8 @@ h2 {font-family: sans-serif;
 	-webkit-text-stroke-color: black;
 	overflow-wrap: break-all;
 	line-height: 100%;
-	margin-top: -10px;}
+	margin-top: -10px;
+	margin-bottom: 20px;}
 
 h2:link {text-decoration: none;}
 

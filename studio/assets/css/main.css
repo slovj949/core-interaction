@@ -3,7 +3,7 @@ h1 {font-family: sans-serif;
 	text-align: left;
 	margin-top: -20px;}
 
-h2 {font-family: sans-serif;
+h2, h4 {font-family: sans-serif;
   display: block;
 	font-size: 35pt;
 	-webkit-text-stroke-width: 3.5px;
@@ -11,12 +11,16 @@ h2 {font-family: sans-serif;
 	-webkit-text-stroke-color: black;
 	overflow-wrap: break-all;
 	line-height: 100%;
-	margin-top: -10px;}
+	margin-top: -10px;
+	margin-bottom: 20px;}
 
 h2:link {text-decoration: none;}
 
 h2:hover {-webkit-text-fill-color: black;
 		cursor: cell;}
+
+h4:hover {-webkit-text-fill-color: red;
+				cursor: cell;}
 
 h3 {display: inline-block;
 		font-weight: lighter;}

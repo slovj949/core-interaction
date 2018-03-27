@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#red {
+  height: auto;
+  width: 33.3333%;
+  float:left;
+  background-color: red;}
+
+#green {
+  height: auto;
+  width: 33.3333%;
+  float: left;
+  background-color: green;}
+
+#blue {
+  height: auto;
+  width: 33.3333%;
+  float: left;
+  background-color: blue;}
+
+h1 {
+  font-family: sans-serif;
+  color: white;
+}
+
+p + p {
+  padding-top: -10000px;
+}
