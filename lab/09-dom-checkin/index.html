@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>000—Color Psychology (Theme)</title>
+        <link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+      <h3>
+        <a href="../index.html" style="text-decoration: none">Studio</a>
+      </h3>
+
+      <h1>000—Color Psychology (Theme)</h1>
+
+      <h2>
+        <p>Color psychology is the study of how color influences the way people feel.</p>
+      </h2>
+
+      <script>
+      var colors = ["crimson", "palevioletred", "tomato", "lightuyellow", "lavender", "olive", "steelblue", "rosybrown", "ghostwhite", "lightcoral", "hotpink", "darkorange", "hotpink", "palegoldenrod", "thistle", "darkolivegreen", "lightsteelblue", "maroon", "lavenderblush", "midnightblue", "darkgrey", "silver", "lightgrey", "gainsboro", "black", "black", "black", "black", "black", "black", "white"];
+      var colorIndex = 0;
+      function changeColor() {
+          var col = document.getElementById("body");
+          if( colorIndex >= colors.length ) {
+              colorIndex = 0;
+          }
+          col.style.backgroundColor = colors[colorIndex];
+          colorIndex++;
+      }
+  </script>
+      <body id='body'>
+      <button onclick="changeColor();">Change Color</button>
+      </body>
+
+    </body>
+</html>
