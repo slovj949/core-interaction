@@ -11,3 +11,25 @@ html, body {
   float: left;
   background-color: white;
 }
+
+#post {
+  height: 100%;
+  width: 83.33335%;
+  float: left;
+}
+
+h1 {
+  font-family: nimbus-sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-size: 120px;
+}
+
+h2 {
+  font-family: nimbus-sans;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+  font-size: 25px;
+}
