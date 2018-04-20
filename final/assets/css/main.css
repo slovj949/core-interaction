@@ -9,19 +9,19 @@ html, body {
   height: 100%;
   width: 33.3333%;
   float:left;
-  background-color: red;}
+  background-color: #FF0000;}
 
 #green {
   height: 100%;
   width: 33.3333%;
   float: left;
-  background-color: green;}
+  background-color: #00FF00;}
 
 #blue {
   height: 100%;
   width: 33.3333%;
   float: left;
-  background-color: blue;}
+  background-color: #0000FF;}
 
 h1 {
   font-family: sans-serif;
