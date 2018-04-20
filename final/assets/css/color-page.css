@@ -4,3 +4,10 @@ html, body {
   padding: 0;
   margin: 0;
 }
+
+#home {
+  height: 100%;
+  width: 16.66665%;
+  float: left;
+  background-color: white;
+}
