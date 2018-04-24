@@ -18,18 +18,29 @@ html, body {
   float: left;
 }
 
+#c1, #c2, #c3 {
+  height: 100%;
+  width: 33.3333%;
+  float:left;
+}
+
 h1 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
   font-weight: 700;
+  margin-top: -15px;
+  margin-bottom: 0px;
   color: white;
-  font-size: 120px;
+  font-size: 7vw;
 }
 
 h2 {
   font-family: nimbus-sans;
   font-style: normal;
   font-weight: 300;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  margin-left: 5px;
   color: white;
-  font-size: 25px;
+  font-size: 2vw;
 }
