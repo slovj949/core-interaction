@@ -19,7 +19,7 @@ h2:link {text-decoration: none;}
 h2:hover {-webkit-text-fill-color: black;
 		cursor: cell;}
 
-h4:hover {-webkit-text-fill-color: red;
+h4:hover {-webkit-text-fill-color: white;
 				cursor: cell;}
 
 h3 {display: inline-block;
