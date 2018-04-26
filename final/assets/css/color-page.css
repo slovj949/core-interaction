@@ -10,19 +10,28 @@ html, body {
   width: 16.66665%;
   float: left;
   position: relative;
+  background-color: white;
 }
 
-
-#go-home, #go-red, #go-green, #go-blue {
-  height: 33.33333%;
-  width: 100%;
-  float: left;
-}
-
-#post {
+#post-red {
   height: 100%;
   width: 83.33335%;
   float: left;
+  background-color: #FF0000;
+}
+
+#post-green {
+  height: 100%;
+  width: 83.33335%;
+  float: left;
+  background-color: #00FF00;
+}
+
+#post-blue {
+  height: 100%;
+  width: 83.33335%;
+  float: left;
+  background-color: #0000FF;
 }
 
 #c1 {
@@ -42,7 +51,6 @@ html, body {
   float:left;
 }
 
-
 h1 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
@@ -56,7 +64,7 @@ h1 {
 h2 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: -15px;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -67,7 +75,7 @@ h2 {
 h3 {
   font-family: monospace;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   margin-top: -15px;
   margin-bottom: 15px;
   margin-left: 7px;
@@ -78,7 +86,7 @@ h3 {
 h4{
   font-family: monospace;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   margin-top: -15px;
   margin-bottom: 15px;
   margin-left: 7px;
