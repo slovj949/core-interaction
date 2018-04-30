@@ -69,11 +69,18 @@ html, body {
   float:left;
 }
 
+#post-about {
+  height: 100%;
+  width: 83.33335%;
+  float: left;
+  background-color: red;
+}
+
 
 h1 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: -15px;
   margin-bottom: 0px;
   color: white;
@@ -83,7 +90,7 @@ h1 {
 h2 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: -15px;
   margin-bottom: 0px;
   margin-left: 0px;
