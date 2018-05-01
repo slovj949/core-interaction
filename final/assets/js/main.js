@@ -28,13 +28,13 @@ $("#post-blue").mousemove(function(event) {
       $("#post-blue").css("background-color", codeColor);
 });
 
-$("#homepage-red").mousemove(function(event) {
-    var posX = event.pageX;
-    var posY = event.pageY;
-    var sum = parseInt(posX)/2 + parseInt(posY)/4;
-    console.log(posX, posY, sum);
-      for(posX = 0; posX<400; posX++){
-        var codeColor = "rgb("+ sum +", 0, 0)";
-          $("#homepage-red").css("background-color", codeColor);
-}
-});
+//$("#homepage-red").mousemove(function(event) {
+//    var posX = event.pageX;
+//    var posY = event.pageY;
+//    var sum = parseInt(posX)/2 + parseInt(posY)/4;
+//    console.log(posX, posY, sum);
+//      for(posX = 0; posX<400; posX++){
+//        var codeColor = "rgb("+ sum +", 0, 0)";
+//          $("#homepage-red").css("background-color", codeColor);
+// }
+// });
