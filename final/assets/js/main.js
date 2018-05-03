@@ -3,6 +3,9 @@ $("#post-red").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
+      document.getElementById("RR").innerHTML="R" +" " + corX;
+      document.getElementById("GR").innerHTML="G" +" " + corY;
+      document.getElementById("BR").innerHTML="B" +" " + corB;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb("+ corB +", 0, 0)";
       $("#post-red").css("background-color", codeColor);
@@ -13,6 +16,9 @@ $("#post-green").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
+      document.getElementById("RG").innerHTML="R" +" " + corX;
+      document.getElementById("GG").innerHTML="G" +" " + corY;
+      document.getElementById("BG").innerHTML="B" +" " + corB;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb(0, "+ corB +", 0)";
       $("#post-green").css("background-color", codeColor);
@@ -23,6 +29,9 @@ $("#post-blue").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
+      document.getElementById("RB").innerHTML="R" +" " + corX;
+      document.getElementById("GB").innerHTML="G" +" " + corY;
+      document.getElementById("BB").innerHTML="B" +" " + corB;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb(0, 0, "+ corB +")";
       $("#post-blue").css("background-color", codeColor);
