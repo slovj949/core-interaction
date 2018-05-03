@@ -23,13 +23,27 @@ html, body {
   float: left;
   background-color: #0000FF;}
 
-#nav {
+#nav-color {
   height: 100%;
   width: 16.66665%;
   float: left;
-  position: relative;
   background-color: white;
 }
+
+#nav-trend {
+  height: 165%;
+  width: 16.66665%;
+  float: left;
+  background-color: white;
+}
+
+#nav-names {
+  height: 335%;
+  width: 16.66665%;
+  float: left;
+  background-color: white;
+}
+
 
 #post-red {
   height: 100%;
@@ -52,10 +66,29 @@ html, body {
   background-color: #0000FF;
 }
 
+#post-black {
+  height: 100%;
+  width: 83.33335%;
+  float: left;
+  background-color: #000000;
+}
+
 #c1 {
   height: 100%;
   width: 33.3333%;
   float:left;
+}
+
+#post-color-links {
+  position: fixed;
+  bottom: 150px;
+  width: 33.3333%;
+}
+
+#post-links {
+  position: fixed;
+  bottom: 50px;
+  width: 33.3333%;
 }
 
 #c2 {
@@ -76,11 +109,11 @@ html, body {
   background-color: red;
 }
 
-
 h1 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
   font-weight: 900;
+  letter-spacing: -5px;
   margin-top: -15px;
   margin-bottom: 0px;
   color: white;
@@ -96,6 +129,7 @@ h2 {
   margin-left: 0px;
   color: white;
   font-size: 7vw;
+  float: left;
 }
 
 h3 {
@@ -107,17 +141,19 @@ h3 {
   margin-left: 7px;
   color: white;
   font-size: 1vw;
+  text-align: left;
 }
 
-h4{
+h4 {
   font-family: monospace;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   margin-top: -15px;
   margin-bottom: 15px;
   margin-left: 7px;
   color: white;
   font-size: 1vw;
+  float: left;
 }
 
 h4:hover{
@@ -134,4 +170,37 @@ h5 {
   margin-left: 5px;
   color: white;
   font-size: 1vw;
+}
+
+h6 {font-family: nimbus sans, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  display: block;
+	font-size: 35pt;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  margin-left: 6px;
+	-webkit-text-stroke-width: 2.5px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: white;
+	overflow-wrap: break-all;
+  float: left;
+}
+
+h6:hover, h7:hover {-webkit-text-fill-color: white;
+}
+
+h7 {font-family: nimbus sans, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  display: block;
+	font-size: 35pt;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  margin-left: 6px;
+	-webkit-text-stroke-width: 2.5px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: white;
+	overflow-wrap: break-all;
+  float: left;
 }
