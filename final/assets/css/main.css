@@ -38,7 +38,7 @@ html, body {
 }
 
 #nav-names {
-  height: 335%;
+  height: 375%;
   width: 16.66665%;
   float: left;
   background-color: white;
@@ -124,6 +124,7 @@ h2 {
   font-family: nimbus-sans, sans-serif;
   font-style: normal;
   font-weight: 700;
+  letter-spacing: -5px;
   margin-top: -15px;
   margin-bottom: 0px;
   margin-left: 0px;

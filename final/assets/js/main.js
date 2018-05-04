@@ -3,9 +3,9 @@ $("#post-red").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
-      document.getElementById("RR").innerHTML="R" +" " + corX;
+      document.getElementById("RR").innerHTML="R" +" " + corB;
       document.getElementById("GR").innerHTML="G" +" " + corY;
-      document.getElementById("BR").innerHTML="B" +" " + corB;
+      document.getElementById("BR").innerHTML="B" +" " + corX;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb("+ corB +", 0, 0)";
       $("#post-red").css("background-color", codeColor);
@@ -17,8 +17,8 @@ $("#post-green").mousemove(function(event) {
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
       document.getElementById("RG").innerHTML="R" +" " + corX;
-      document.getElementById("GG").innerHTML="G" +" " + corY;
-      document.getElementById("BG").innerHTML="B" +" " + corB;
+      document.getElementById("GG").innerHTML="G" +" " + corB;
+      document.getElementById("BG").innerHTML="B" +" " + corY;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb(0, "+ corB +", 0)";
       $("#post-green").css("background-color", codeColor);
