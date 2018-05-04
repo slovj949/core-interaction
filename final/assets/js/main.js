@@ -1,5 +1,5 @@
 $("#post-red").mousemove(function(event) {
-      var corX = event.pageX / 10;
+      var corX = event.pageX / 8;
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
