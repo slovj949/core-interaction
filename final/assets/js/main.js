@@ -4,8 +4,8 @@ $("#post-red").mousemove(function(event) {
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
       document.getElementById("RR").innerHTML="R" +" " + corB;
-      document.getElementById("GR").innerHTML="G" +" " + corY;
-      document.getElementById("BR").innerHTML="B" +" " + corX;
+      document.getElementById("GR").innerHTML="G" +" " + 0;
+      document.getElementById("BR").innerHTML="B" +" " + 0;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb("+ corB +", 0, 0)";
       $("#post-red").css("background-color", codeColor);
@@ -16,9 +16,9 @@ $("#post-green").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
-      document.getElementById("RG").innerHTML="R" +" " + corX;
+      document.getElementById("RG").innerHTML="R" +" " + 0;
       document.getElementById("GG").innerHTML="G" +" " + corB;
-      document.getElementById("BG").innerHTML="B" +" " + corY;
+      document.getElementById("BG").innerHTML="B" +" " + 0;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb(0, "+ corB +", 0)";
       $("#post-green").css("background-color", codeColor);
@@ -29,8 +29,8 @@ $("#post-blue").mousemove(function(event) {
       var corY = event.pageY / 6;
       var corB = parseInt(corX) + parseInt(corY);
       console.log(corX, corY, corB);
-      document.getElementById("RB").innerHTML="R" +" " + corX;
-      document.getElementById("GB").innerHTML="G" +" " + corY;
+      document.getElementById("RB").innerHTML="R" +" " + 0;
+      document.getElementById("GB").innerHTML="G" +" " + 0;
       document.getElementById("BB").innerHTML="B" +" " + corB;
       // var codeColor = "rgb(" + corX + ", " + corY + ", 40)";
       var codeColor = "rgb(0, 0, "+ corB +")";
