@@ -38,7 +38,7 @@ html, body {
 }
 
 #nav-names {
-  height: 412%;
+  height: 100%;
   width: 16.66665%;
   float: left;
   background-color: white;
@@ -193,7 +193,7 @@ h6 {font-family: nimbus sans, sans-serif;
   margin-top: 20px;
   margin-bottom: -40px;
   margin-left: 6px;
-	-webkit-text-stroke-width: 2.5px;
+	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-fill-color: transparent;
 	-webkit-text-stroke-color: white;
 	overflow-wrap: break-all;
@@ -211,7 +211,7 @@ h7 {font-family: nimbus sans, sans-serif;
   margin-top: 20px;
   margin-bottom: -40px;
   margin-left: 6px;
-	-webkit-text-stroke-width: 2.5px;
+	-webkit-text-stroke-width: 1.5px;
 	-webkit-text-fill-color: transparent;
 	-webkit-text-stroke-color: white;
 	overflow-wrap: break-all;
