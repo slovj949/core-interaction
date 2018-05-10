@@ -58,6 +58,15 @@ $("h3").each(function(){
 })
 })
 
+$("h3").each(function(){
+      $("h3").mouseover(function(newcolor){
+      newcolor = $(this).css("color")
+      // console.log("hover")
+      // newcolor = $("h3").css("color");
+      $("#post-about-s").css("background-color", newcolor);
+})
+})
+
 //$("#homepage-red").mousemove(function(event) {
 //    var posX = event.pageX;
 //    var posY = event.pageY;
